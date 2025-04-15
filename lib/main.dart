@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:easy_design_system/easy_design_system.dart';
 import 'package:my_app/screens/counter/counter.screen.dart';
 import 'package:provider/provider.dart';
 import 'package:my_app/models/counter.dart';
@@ -10,8 +11,13 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(title: 'Sample Provider', home: CounterScreen());
+    return MaterialApp(
+      title: 'Sample Provider',
+      home: Theme(data: ComicTheme.of(context), child: const CounterScreen()),
+    );
   }
 }

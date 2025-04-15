@@ -49,6 +49,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.8"
+  easy_design_system:
+    dependency: "direct main"
+    description:
+      name: easy_design_system
+      sha256: d38180c91a3143efc3f710547ef48cde3dbce3eb8d84317b7dfddd686b71a19a
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.29"
   fake_async:
     dependency: transitive
     description:
@@ -107,6 +115,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "5.1.1"
+  loop_page_view:
+    dependency: transitive
+    description:
+      name: loop_page_view
+      sha256: ed0059c44e29fbdaf1f865cb4511820e6a0e29996a386e05c80d086ce0cf1a00
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.2.5"
   matcher:
     dependency: transitive
     description:
@@ -155,11 +171,27 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.1.4"
+  rxdart:
+    dependency: transitive
+    description:
+      name: rxdart
+      sha256: "0c7c0cedd93788d996e33041ffecda924cc54389199cde4e6a34b440f50044cb"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.27.7"
   sky_engine:
     dependency: transitive
     description: flutter
     source: sdk
     version: "0.0.0"
+  smooth_page_indicator:
+    dependency: transitive
+    description:
+      name: smooth_page_indicator
+      sha256: b21ebb8bc39cf72d11c7cfd809162a48c3800668ced1c9da3aade13a32cf6c1c
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.2.1"
   source_span:
     dependency: transitive
     description:
